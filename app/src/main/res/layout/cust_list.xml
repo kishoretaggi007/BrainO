@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/homethemeb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        tools:ignore="InefficientWeight,ObsoleteLayoutParam,UselessParent"
+        android:layout_weight="0.00">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchColumns="0,1"
+            android:id="@+id/maintable"
+            tools:ignore="ScrollViewSize">
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/finalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="133dp"
+        android:layout_weight="0.00"
+        android:text="Done"
+        tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+
+</RelativeLayout>

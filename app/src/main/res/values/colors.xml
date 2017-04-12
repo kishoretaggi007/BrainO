@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="puzzle_dark">#A9A9A9</color>
+    <color name="puzzle_foreground">#ff000000</color>
+    <color name="white">#ffffff</color>
+    <color name="light_yellow">#FFFF33</color>
+    <color name="light_grey">#F0F0FF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="grey">#808080</color>
+    <color name="green">#107F73</color>
+    <color name="orange">#F7961E</color>
+
+</resources>

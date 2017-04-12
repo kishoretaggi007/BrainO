@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BrainO</string>
+    <string name="exit">Exit</string>
+    <string name="instructions">Instructions</string>
+    <string name="level_1">Level 1</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="steps">Steps</string>
+    <string name="tab_1">Tab 1</string>
+    <string name="button">Button</string>
+
+</resources>

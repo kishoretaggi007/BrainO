@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homethemea"
+    android:id="@+id/relLayout" >
+
+    <ImageView
+        android:id="@+id/themeimage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imagePlay"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/play"
+        tools:ignore="ContentDescription,UnknownId"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageExit"
+        android:layout_marginStart="59dp" />
+
+    <ImageView
+        android:id="@+id/imageExit"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="117dp"
+        app:srcCompat="@drawable/cross"
+        tools:ignore="ContentDescription"
+        android:layout_below="@+id/imagePlay"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageInstr"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/instructions"
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/imageExit"
+        android:layout_alignStart="@+id/imagePlay"
+        android:layout_marginStart="144dp" />
+
+</RelativeLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_tab2"
+    android:background="@drawable/homethemeb"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/oneImage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/one"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp" />
+
+    <ImageView
+        android:id="@+id/twoImage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/two"
+        tools:ignore="ContentDescription"
+        android:layout_alignBottom="@+id/twolock"
+        android:layout_alignStart="@+id/twolock" />
+
+    <ImageView
+        android:id="@+id/threeImage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/three"
+        tools:ignore="ContentDescription"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/fourimage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/sevenlock"
+        android:layout_alignStart="@+id/fourlock"
+        app:srcCompat="@drawable/four"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/fiveimage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/fivelock"
+        android:layout_alignTop="@+id/fivelock"
+        app:srcCompat="@drawable/five"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/siximage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/sixlock"
+        android:layout_alignTop="@+id/sixlock"
+        app:srcCompat="@drawable/six"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/sevenimage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/sevenlock"
+        android:layout_alignTop="@+id/sevenlock"
+        app:srcCompat="@drawable/seven"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/eightimage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/eightlock"
+        android:layout_alignTop="@+id/eightlock"
+        app:srcCompat="@drawable/eight"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/nineimage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ninelock"
+        app:srcCompat="@drawable/nine"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/tenimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignStart="@+id/tenlock"
+        android:layout_alignTop="@+id/tenlock"
+        app:srcCompat="@drawable/ten"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/fourlock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="27dp"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription"
+        android:layout_below="@+id/oneImage"
+        android:layout_alignStart="@+id/oneImage" />
+
+    <ImageView
+        android:id="@+id/fivelock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/fourlock"
+        android:layout_alignStart="@+id/twoImage" />
+
+    <ImageView
+        android:id="@+id/tenlock"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription"
+        android:layout_below="@+id/eightimage"
+        android:layout_alignStart="@+id/eightimage" />
+
+    <ImageView
+        android:id="@+id/ninelock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/eightlock"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/eightlock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription"
+        android:layout_alignTop="@+id/sevenimage"
+        android:layout_alignStart="@+id/fiveimage" />
+
+    <ImageView
+        android:id="@+id/sevenlock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="26dp"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription"
+        android:layout_below="@+id/fourlock"
+        android:layout_alignStart="@+id/fourimage" />
+
+    <ImageView
+        android:id="@+id/sixlock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/fivelock"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/twolock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription,UnknownId,UnknownIdInLayout"
+        android:layout_alignBottom="@+id/onelock"
+        android:layout_toStartOf="@+id/threeImage" />
+
+    <ImageView
+        android:id="@+id/onelock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/oneImage"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription,UnknownId,UnknownIdInLayout" />
+
+    <ImageView
+        android:id="@+id/threelock"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/lock"
+        tools:ignore="ContentDescription"
+        android:layout_alignBottom="@+id/twolock"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
